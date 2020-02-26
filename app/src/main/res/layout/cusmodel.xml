@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:id="@+id/R"
+    android:gravity="center_horizontal">
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_5sdp"
+    android:id="@+id/Rr">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgview"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cerclebackgroundblue"
+            android:src="@drawable/customers"
+            android:layout_marginEnd="5dp"/>
+
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgview"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:id="@+id/R1"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Ahmed Tarek"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:text="Phone : "
+        android:layout_below="@+id/name"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneX"
+        android:text="01006984050"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/phone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text="Email : "
+        android:layout_below="@+id/phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailX"
+        android:text="atarrr5555@ghhoo.com"
+        android:layout_below="@+id/phoneX"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/email"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#008577</color>
+    <color name="ColorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark2">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green22">#00bfa5</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="white">#FFF</color>
+    <color name="pink">#fe104d</color>
+    <color name="stroke2">#9acddd</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="ColorAccent">#D81B60</color>
+    <color name="colorPrimary">#6ec6ff</color>
+    <color name="colorPrimaryDark">#0077c2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#EEF97E</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorRow">#E5E6EC</color>
+    <color name="black">#000000</color>
+    <color name="orange">#ff7f50</color>
+    <color name="green">#67ac15</color>
+    <color name="green2">#17a2b8</color>
+    <color name="pink_light">#ffc0cb</color>
+    <color name="bluelight">#49ac5d</color>
+    <color name="yellowDark">#cccc00</color>
+    <color name="projectColor">#81d4fa</color>
+    <color name="indigo">#A6F4F5</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tariqs.xerox">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon2"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LibraryReport" />
+        <activity android:name=".AddMachine" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sales" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Libraries" />
+        <activity android:name=".Sale" />
+        <activity android:name=".AddReport" />
+        <activity
+            android:name=".AddSale2"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Add" />
+        <activity android:name=".App" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

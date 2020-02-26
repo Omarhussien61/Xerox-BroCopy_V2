@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales"
+        android:textStyle="bold"
+        android:id="@+id/title"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <LinearLayout android:orientation="horizontal"
+            android:background="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtcusName"
+                android:textStyle="bold"
+                android:text="Customer"
+                android:textSize="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_1sdp"
+                android:textAllCaps="true"
+                android:gravity="center|start"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorRow">
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtName"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textAllCaps="true"
+                android:gravity="center|start"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorRow">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtLocation"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:gravity="center|start"
+                android:text="Quantity"
+                android:layout_weight="1"
+
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorRow">
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtStadiumName"
+                android:gravity="center|start"
+                android:layout_marginStart="@dimen/margin"
+                android:textStyle="bold"
+                android:text="Total"
+                android:layout_weight="1"
+
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorRow">
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="@dimen/cell_width"
+                android:id="@+id/txtStarPlayerName"
+                android:gravity="center|start"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/margin"
+                android:text="Bill ID"
+                android:layout_weight="1"
+
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rvClub"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

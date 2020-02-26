@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tariqs.xerox"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To store the heap dumps and leak analysis results. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.tariqs.xerox.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tariqs.xerox.LibraryReport" />
+        <activity android:name="com.tariqs.xerox.AddMachine" />
+        <activity
+            android:name="com.tariqs.xerox.Main3Activity"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tariqs.xerox.Sales" />
+        <activity
+            android:name="com.tariqs.xerox.Main2Activity"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tariqs.xerox.Libraries" />
+        <activity android:name="com.tariqs.xerox.Sale" />
+        <activity android:name="com.tariqs.xerox.AddReport" />
+        <activity
+            android:name="com.tariqs.xerox.AddSale2"
+            android:label="BroCopy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.tariqs.xerox.Add" />
+        <activity android:name="com.tariqs.xerox.App" />
+        <activity android:name="com.tariqs.xerox.MainActivity" >
+        </activity>
+
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:process=":leakcanary"
+            android:taskAffinity="com.squareup.leakcanary.com.tariqs.xerox"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+            android:enabled="false"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:process=":leakcanary"
+            android:taskAffinity="com.squareup.leakcanary.com.tariqs.xerox"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+    </application>
+
+</manifest>

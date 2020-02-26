@@ -1,0 +1,150 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+
+        android:background="#2bb673"
+
+        android:id="@+id/L">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:gravity="center_horizontal"
+            android:textSize="23sp"
+            android:textColor="#FFF"
+            android:text="Test"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/title"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:gravity="end">
+
+        <ImageView
+            android:id="@+id/btnSave"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/add2"
+            />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/L"
+        android:id="@+id/l1"
+        >
+
+        <Button
+            android:id="@+id/nameBu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_weight="0.3"
+            android:background="@color/bluelight"
+            android:text="Name"
+            android:textColor="#FFF" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toEndOf="@+id/nameBu"
+            android:id="@+id/Bu"
+            android:layout_weight="0.3"
+            android:background="#FFF"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Phone"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/Bu">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/refresh"
+            android:src="@drawable/refresh"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_below="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:id="@+id/search"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/search"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="Search"
+            android:background="@drawable/stroke7"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <!--
+        <ListView
+            android:id="@+id/listView"
+            android:layout_below="@+id/ll"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/stroke2"
+            android:elevation="4dp"
+            />
+        -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="1dp"
+            android:background="#D3D3D3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ll">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+
+                >
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </RelativeLayout>

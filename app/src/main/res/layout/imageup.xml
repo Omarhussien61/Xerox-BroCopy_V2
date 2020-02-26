@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@color/black_overlay"
+    android:padding="@dimen/_5sdp"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main3"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/titleR"
+        android:background="#FFF"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/R">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/stroke4"
+                android:layout_marginStart="@dimen/_5sdp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Browse Image"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFF"
+                android:layout_marginStart="@dimen/_17sdp"
+                android:id="@+id/buttonChoose" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFF"
+            android:layout_toEndOf="@+id/R"
+            android:id="@+id/r1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/custxt"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:text="Machine Num"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_below="@+id/custxt"
+
+                android:background="@drawable/stroke6"
+                android:id="@+id/s">
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerMac"
+                    android:paddingTop="5dp"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFF"
+                    android:text="test" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_below="@+id/r"
+        android:background="#FFF"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:layout_below="@+id/r"
+        android:orientation="horizontal"
+            >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/papersE"
+            android:hint="Papers"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColorHint="#FFF"
+            android:layout_marginEnd="@dimen/_5sdp"
+            >
+
+            <EditText
+                android:id="@+id/papers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3d5258"
+                android:drawableStart="@drawable/paper"
+                android:drawablePadding="@dimen/_5sdp"
+                android:hint="Papera"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF" />
+        </RelativeLayout>
+    </LinearLayout>
+      <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/l5"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    tools:context=".MainActivity">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upload"
+                            android:textSize="@dimen/_20sdp"
+                            android:background="@color/bluelight"
+                            android:textColor="@color/white"
+                            android:id="@+id/buttonUpload" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+          <RelativeLayout
+              android:id="@+id/r2"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_below="@+id/l5"
+              android:background="#FFF">
+
+              <android.support.v7.widget.RecyclerView
+                  android:id="@+id/Rv"
+                  tools:listitem="@layout/reportmodel_t2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true">
+
+              </android.support.v7.widget.RecyclerView>
+          </RelativeLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/r2"
+              android:layout_marginTop="@dimen/_10sdp"
+              android:layout_marginBottom="@dimen/_10sdp"
+              android:background="#FFF"
+              android:weightSum="2"
+              android:orientation="horizontal"
+              android:gravity="center_horizontal">
+
+              <Button
+                  android:id="@+id/b1"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:background="@color/bluelight"
+                  android:text="Show Sales"
+                  android:textAllCaps="true"
+                  android:layout_marginRight="@dimen/_10sdp"
+                  android:textColor="#fff"
+                  android:textSize="18sp" />
+
+              <Button
+                  android:id="@+id/b2"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/b1"
+                  android:background="@color/bluelight"
+                  android:text="Show Report"
+                  android:textAllCaps="true"
+                  android:layout_marginRight="@dimen/_10sdp"
+                  android:textColor="#fff"
+                  android:textSize="18sp" />
+
+          </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

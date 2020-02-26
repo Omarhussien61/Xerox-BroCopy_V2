@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cus"
+            android:icon="@drawable/customers"
+            android:title="Customer"
+            />
+        <item
+            android:id="@+id/pro"
+            android:icon="@drawable/product"
+            android:title="Produuct" />
+        <item
+            android:id="@+id/sale"
+            android:icon="@drawable/sales"
+            android:title="Sale" />
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/report"
+            android:title="Report" />
+        <item
+        android:id="@+id/signOut"
+        android:icon="@drawable/exit"
+        android:title="Sign Out" />
+    </group>
+
+
+
+</menu>

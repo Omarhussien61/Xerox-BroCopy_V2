@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:background="@color/bluelight">
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:layout_marginStart="10dp"
+    android:id="@+id/r1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bill_nameX"
+        android:text="Bill Name"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bill_dateX"
+        android:text="Bill Date"
+        android:textStyle="bold"
+        android:layout_below="@+id/bill_nameX"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_b_descX"
+        android:text="Paid"
+        android:textStyle="bold"
+        android:layout_below="@+id/bill_dateX"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/discX"
+        android:text="Remainder"
+        android:textStyle="bold"
+        android:layout_below="@+id/total_b_descX"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_a_descX"
+        android:text="Total"
+        android:layout_below="@+id/discX"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tax14X"
+        android:text="Bill Num"
+        android:textStyle="bold"
+        android:layout_below="@+id/total_a_taxX"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bill_name"
+    android:text="Cus"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bill_date"
+        android:text="14/02/1996"
+        android:layout_below="@+id/bill_name"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/total_b_desc"
+        android:layout_below="@+id/bill_date"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/disc"
+        android:layout_below="@+id/total_b_desc"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/total_a_desc"
+        android:layout_below="@+id/disc"/>
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:id="@+id/tax14"
+        android:layout_below="@+id/total_a_desc"/>
+    </RelativeLayout>
+
+</LinearLayout>

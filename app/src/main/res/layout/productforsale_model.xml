@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/r1"
+        android:background="@drawable/stroke2"
+
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/productImageView"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/product"
+             />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_vertical"
+            android:text="Name"
+            android:id="@+id/nameTextView"
+            android:padding="5dp"
+
+            android:layout_weight="0.6"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@+id/productImageView" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+            android:text="Quantity"
+            android:id="@+id/qtyX"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3"
+
+            android:layout_toStartOf="@+id/qty"
+           />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/qty"
+            android:text="0"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
