@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xp\\AndroidStudioProjects\\Xerox-BroCopy_V1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xp\\.gradle\\caches\\transforms-2\\files-2.1\\5c16167c9e6818f5080a5f167b8fad7d\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,201,296,396,478,575,681,757,833,911,1007,1103,1198,1295,1390,1488,1637,1731",
-                        "endColumns": "95,94,99,81,96,105,75,75,77,95,95,94,96,94,97,148,93,77",
-                        "endOffsets": "196,291,391,473,570,676,752,828,906,1002,1098,1193,1290,1385,1483,1632,1726,1804"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xp\\.gradle\\caches\\transforms-2\\files-2.1\\07e539145c99150456292f82a5ea7a51\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\8cc6d87f90d0d99f687721921d4fc532\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1809",
                         "endColumns": "100",
                         "endOffsets": "1905"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\7cd31b818bcc2f9aceaaef8589af519c\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,296,396,478,575,681,757,833,911,1007,1103,1198,1295,1390,1488,1637,1731",
+                        "endColumns": "95,94,99,81,96,105,75,75,77,95,95,94,96,94,97,148,93,77",
+                        "endOffsets": "196,291,391,473,570,676,752,828,906,1002,1098,1193,1290,1385,1483,1632,1726,1804"
                     }
                 }
             ]

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profieSaes">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rev">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Customers"
+        android:id="@+id/namecus"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sale date"
+        android:layout_margin="10dp"
+        android:id="@+id/sedata"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/namecus"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select date"
+        android:layout_margin="10dp"
+        android:id="@+id/clender"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/spinnerCus"
+
+        android:layout_toEndOf="@+id/sedata"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textColor="@color/bluelight"
+        android:layout_margin="10dp"
+        android:id="@+id/addSe"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/spinnerCus"
+
+        android:layout_toEndOf="@+id/clender"
+        />
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCus"
+        android:paddingTop="5dp"
+        android:textColor="#D9A7AF"
+        android:textSize="20dp"
+
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/namecus"
+        android:text="test" />
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rev"
+        android:background="@drawable/buttonstyle"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight="1.2"
+            android:id="@+id/Detail"
+            android:layout_marginEnd="2dp"
+            android:textSize="20sp"
+            android:textColor="#D9A7AF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qty"
+            android:layout_weight="1.2"
+            android:layout_marginEnd="5dp"
+            android:textSize="20sp"
+            android:text="QTY"
+            android:textColor="#FCFDFC"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:layout_weight="1.2"
+            android:layout_marginEnd="5dp"
+            android:textSize="20sp"
+            android:text="Price"
+            android:textColor="#D9A7AF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subtotal"
+            android:layout_weight="1.2"
+            android:textSize="20sp"
+            android:text="Sub-Total"
+            android:textColor="#D9A7AF"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleViewSale"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/l3"
+android:id="@+id/d3"
+    android:layout_margin="@dimen/_5sdp"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l3"
+        android:id="@+id/en1"
+android:layout_toEndOf="@+id/d3"
+        android:layout_margin="@dimen/_5sdp"
+
+        android:layout_marginStart="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"/>
+    </LinearLayout>
+<com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/en1"
+android:layout_margin="@dimen/_5sdp"
+    android:layout_height="@dimen/_50sdp"
+    android:hint="Nots"/>
+</RelativeLayout>

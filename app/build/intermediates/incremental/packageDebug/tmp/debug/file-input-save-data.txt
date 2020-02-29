@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Sun Dec 22 02:33:08 EET 2019
-1.base=C\:\\Users\\xp\\AndroidStudioProjects\\Xerox-BroCopy_V1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+#Sat Feb 29 12:53:49 EET 2020
+1.base=C\:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=C\:\\Users\\xp\\AndroidStudioProjects\\Xerox-BroCopy_V1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.base=C\:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 1.path=classes.dex

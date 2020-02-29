@@ -1560,6 +1560,8 @@ drawable ic_course_book
 drawable ic_course_plan
 drawable ic_course_schedule
 drawable ic_gpa_reult
+drawable ic_laun_background
+drawable ic_laun_foreground
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_lightbulb_outline_black_24dp
@@ -2164,6 +2166,8 @@ menu activity_main2_drawer
 menu activity_main3_drawer
 menu main2
 menu menu_main
+mipmap ic_laun
+mipmap ic_laun_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap icon

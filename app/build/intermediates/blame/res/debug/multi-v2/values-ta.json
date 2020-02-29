@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\xp\\AndroidStudioProjects\\Xerox-BroCopy_V1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\xp\\.gradle\\caches\\transforms-2\\files-2.1\\07e539145c99150456292f82a5ea7a51\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\7cd31b818bcc2f9aceaaef8589af519c\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
+                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
+                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\8cc6d87f90d0d99f687721921d4fc532\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1957",
                         "endColumns": "100",
                         "endOffsets": "2053"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\xp\\.gradle\\caches\\transforms-2\\files-2.1\\5c16167c9e6818f5080a5f167b8fad7d\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
-                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
-                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
                     }
                 }
             ]

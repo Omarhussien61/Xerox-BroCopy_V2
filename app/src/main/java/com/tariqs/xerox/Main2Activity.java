@@ -39,7 +39,6 @@ public class Main2Activity extends AppCompatActivity
         setContentView(R.layout.activity_main2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        title = (TextView) findViewById(R.id.user_name);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -103,16 +102,19 @@ public class Main2Activity extends AppCompatActivity
         View header = navigationView.getHeaderView(0);
         Name = (TextView) header.findViewById(R.id.Name);
         phone = (TextView) header.findViewById(R.id.phone);
+        title = (TextView) findViewById(R.id.user_name);
+
         Name.setText(name);
        title.setText(name);
         phone.setText(Phone);
         navigationView.setNavigationItemSelectedListener(this);
+        title = (TextView) findViewById(R.id.user_name);
 
         customer =(CardView)findViewById(R.id.customer);
         product =(CardView)findViewById(R.id.product);
         sales =(CardView)findViewById(R.id.sales);
         report = (CardView) findViewById(R.id.report);
-        machine = (CardView) findViewById(R.id.machine);;
+        machine = (CardView) findViewById(R.id.machine);
        // title.setText(name);
        // exit = (ImageView) findViewById(R.id.exit);
 
@@ -197,7 +199,6 @@ public class Main2Activity extends AppCompatActivity
         Intent i = new Intent(Main2Activity.this,AddSale2.class);
         i.putExtra("checkIfSaler","1");
         i.putExtra("name",name);
-        title.setText(name);
 
         startActivity(i);
     }
@@ -220,7 +221,6 @@ public class Main2Activity extends AppCompatActivity
         i.putExtra("id",ID);
         i.putExtra("cas",cas);
         i.putExtra("name",name);
-        title.setText(name);
 
         startActivity(i);
     }

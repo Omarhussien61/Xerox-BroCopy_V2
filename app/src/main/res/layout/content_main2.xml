@@ -37,7 +37,7 @@
 
                     <TextView
                         android:textSize="@dimen/_20sdp"
-                        android:text="Abdul Aziz Ahwan"
+                        android:text="username"
                         android:id="@+id/user_name"
                         android:textColor="#ffffff"
                         android:fontFamily="@font/mo_re"
