@@ -173,7 +173,7 @@
 
             android:id="@+id/addProduct"
             android:textSize="20sp"
-            android:background="@color/bluelight"/>
+            android:background="@color/colorPrimaryAddSale"/>
 
     </RelativeLayout>
 

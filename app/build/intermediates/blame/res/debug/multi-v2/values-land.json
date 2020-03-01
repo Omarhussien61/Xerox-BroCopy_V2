@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\7cd31b818bcc2f9aceaaef8589af519c\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\edb2682d89ecc6a25750e45e6373e473\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\760c8c80e76b56f7a787fced13eeffd6\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\36f0502d72a9d82999416eb5b7ab0724\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

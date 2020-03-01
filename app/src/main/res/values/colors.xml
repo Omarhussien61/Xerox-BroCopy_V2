@@ -3,12 +3,14 @@
     <color name="ColorPrimary">#008577</color>
     <color name="ColorPrimaryDark">#00574B</color>
     <color name="colorPrimaryDark2">#FFA000</color>
+    <color name="colorPrimaryAddSale">#B4000000</color>
+
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="lightgray">#ededed</color>
     <color name="deeppurple">#7c4dff</color>
     <color name="yello">#ffb300</color>
     <color name="green22">#00bfa5</color>
-    <color name="colorAccent2">#FF4081</color>
+    <color name="colorAccent2">#C8E4738A</color>
     <color name="darkblue">#23283a</color>
     <color name="testcolorblue">#152b38</color>
     <color name="white">#FFF</color>
@@ -29,7 +31,6 @@
     <color name="green">#67ac15</color>
     <color name="green2">#17a2b8</color>
     <color name="pink_light">#ffc0cb</color>
-    <color name="bluelight">#49ac5d</color>
     <color name="yellowDark">#cccc00</color>
     <color name="projectColor">#81d4fa</color>
     <color name="indigo">#A6F4F5</color>

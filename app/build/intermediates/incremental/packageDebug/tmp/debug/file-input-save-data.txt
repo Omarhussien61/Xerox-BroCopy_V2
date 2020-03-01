@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 29 15:26:48 EET 2020
+#Sat Feb 29 15:38:46 EET 2020
 1.base=C\:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

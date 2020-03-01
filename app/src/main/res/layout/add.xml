@@ -57,7 +57,7 @@
             android:layout_height="30dp"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_weight="0.3"
-            android:background="@color/bluelight"
+            android:background="@color/colorPrimaryAddSale"
             android:text="Name"
             android:textColor="#FFF" />
         <Button

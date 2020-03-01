@@ -1,15 +1,11 @@
 package com.tariqs.xerox;
 
 import android.app.Activity;
-import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -72,14 +68,14 @@ public class Sales extends Activity {
                 datebu = true;
                 namebu = false;
                 dateBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                        , R.color.bluelight));
+                        , R.color.colorPrimaryAddSale));
                 dateBu.setTextColor(ContextCompat.getColor(getApplicationContext()
                         , R.color.white));
                 ///////////////////////////////////
                 nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                         , R.color.white));
                 nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                        , R.color.bluelight));
+                        , R.color.colorPrimaryAddSale));
             }
         });
         nameBu.setOnClickListener(new View.OnClickListener() {
@@ -88,14 +84,14 @@ public class Sales extends Activity {
                 datebu = false;
                 namebu = true;
                 nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                        , R.color.bluelight));
+                        , R.color.colorPrimaryAddSale));
                 nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
                         , R.color.white));
                 ///////////////////////////////////
                 dateBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                         , R.color.white));
                 dateBu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                        , R.color.bluelight));
+                        , R.color.colorPrimaryAddSale));
             }
         });
         //adding a TextChangedListener

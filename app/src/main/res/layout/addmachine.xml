@@ -207,7 +207,7 @@
                     android:textStyle="bold"
                     android:textColor="#FFF"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/bluelight"
+                    android:background="@color/colorPrimaryAddSale"
 
                     />
             </RelativeLayout>

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main3Activity"
-    android:background="@color/black_overlay"
     android:padding="@dimen/_5sdp"
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -18,7 +17,7 @@
         android:id="@+id/r"
         android:gravity="center_horizontal"
         android:layout_below="@+id/titleR"
-        android:background="#FFF"
+        android:background="#fff"
 
         >
 
@@ -34,7 +33,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/imageView"
-                android:background="@drawable/stroke4"
+                android:background="@drawable/buttonstyle"
                 android:layout_marginStart="@dimen/_5sdp"
                 />
             <TextView
@@ -75,7 +74,7 @@
                 android:layout_marginEnd="@dimen/_5sdp"
                 android:layout_below="@+id/custxt"
 
-                android:background="@drawable/stroke6"
+                android:background="@drawable/buttonstyle"
                 android:id="@+id/s">
                 <Spinner
                     android:layout_width="match_parent"
@@ -165,7 +164,7 @@
                             android:layout_height="wrap_content"
                             android:text="Upload"
                             android:textSize="@dimen/_20sdp"
-                            android:background="@color/bluelight"
+                            android:background="@drawable/buttonstyle"
                             android:textColor="@color/white"
                             android:id="@+id/buttonUpload" />
 
@@ -206,7 +205,7 @@
                   android:layout_width="0dp"
                   android:layout_weight="1"
                   android:layout_height="wrap_content"
-                  android:background="@color/bluelight"
+                  android:background="@drawable/buttonstyle"
                   android:text="Show Sales"
                   android:textAllCaps="true"
                   android:layout_marginRight="@dimen/_10sdp"
@@ -219,7 +218,7 @@
                   android:layout_weight="1"
                   android:layout_height="wrap_content"
                   android:layout_below="@+id/b1"
-                  android:background="@color/bluelight"
+                  android:background="@drawable/buttonstyle"
                   android:text="Show Report"
                   android:textAllCaps="true"
                   android:layout_marginRight="@dimen/_10sdp"

@@ -40,7 +40,7 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="5dp"
-                    android:background="@color/bluelight"
+                    android:background="@color/colorPrimaryAddSale"
                     android:visibility="invisible"
                     android:id="@+id/exit"
                     android:src="@drawable/exit"/>
@@ -65,7 +65,7 @@
       android:textStyle="bold"
       android:layout_marginTop="10dp"
       android:layout_marginStart="@dimen/_5sdp"
-      android:textColor="@color/bluelight"
+      android:textColor="@color/colorPrimaryAddSale"
       android:text="Customer"/>
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -119,7 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sale Date"
-            android:textColor="@color/bluelight"
+            android:textColor="@color/colorPrimaryAddSale"
             android:textStyle="bold"
             android:id="@+id/date"/>
         <TextView
@@ -273,7 +273,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/total"
                         android:text="Total"
-                        android:textColor="@color/bluelight"
+                        android:textColor="@color/colorPrimaryAddSale"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="2dp"
                         android:textStyle="bold"
@@ -283,7 +283,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/paid"
                         android:text="Paid"
-                        android:textColor="@color/bluelight"
+                        android:textColor="@color/colorPrimaryAddSale"
                         android:layout_below="@+id/total"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="2dp"
@@ -294,7 +294,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/remain"
                         android:text="Remain"
-                        android:textColor="@color/bluelight"
+                        android:textColor="@color/colorPrimaryAddSale"
                         android:layout_below="@+id/paid"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="2dp"
@@ -305,7 +305,7 @@
                         android:layout_height="wrap_content"
                         android:text="Counter"
                         android:layout_below="@+id/remain"
-                        android:textColor="@color/bluelight"
+                        android:textColor="@color/colorPrimaryAddSale"
 
                         android:layout_marginStart="10dp"
                         android:id="@+id/Notes"
@@ -381,7 +381,7 @@
                     android:id="@+id/addsale"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
-                    android:background="@color/bluelight"
+                    android:background="@color/colorPrimaryAddSale"
                     android:text="Calculate and Add Sale"
                     android:textColor="#FFF"
                     android:textStyle="bold" />

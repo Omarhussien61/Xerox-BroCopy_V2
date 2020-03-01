@@ -12,7 +12,6 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.ContextMenu;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -28,7 +27,6 @@ import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
@@ -41,10 +39,8 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -562,14 +558,14 @@ Button Add_Product;
                     bu = true;
                     namebu = false;
                     Bu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                     Bu.setTextColor(ContextCompat.getColor(getApplicationContext()
                             , R.color.white));
                     ///////////////////////////////////
                     nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                             , R.color.white));
                     nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                 }
             });
             nameBu.setOnClickListener(new View.OnClickListener() {
@@ -578,14 +574,14 @@ Button Add_Product;
                     bu = false;
                     namebu = true;
                     nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                     nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
                             , R.color.white));
                     ///////////////////////////////////
                     Bu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                             , R.color.white));
                     Bu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                 }
             });
             //adding a TextChangedListener
@@ -624,14 +620,14 @@ Button Add_Product;
                     bu = true;
                     namebu = false;
                     Bu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                     Bu.setTextColor(ContextCompat.getColor(getApplicationContext()
                             , R.color.white));
                     ///////////////////////////////////
                     nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                             , R.color.white));
                     nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                 }
             });
             nameBu.setOnClickListener(new View.OnClickListener() {
@@ -640,14 +636,14 @@ Button Add_Product;
                     bu = false;
                     namebu = true;
                     nameBu.setBackground(ContextCompat.getDrawable(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                     nameBu.setTextColor(ContextCompat.getColor(getApplicationContext()
                             , R.color.white));
                     ///////////////////////////////////
                     Bu.setBackground(ContextCompat.getDrawable(getApplicationContext()
                             , R.color.white));
                     Bu.setTextColor(ContextCompat.getColor(getApplicationContext()
-                            , R.color.bluelight));
+                            , R.color.colorPrimaryAddSale));
                 }
             });
             //adding a TextChangedListener

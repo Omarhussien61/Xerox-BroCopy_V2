@@ -80,7 +80,7 @@
                     android:drawableStart="@drawable/user"
                     android:drawablePadding="5dp"
                     android:hint="Phone"
-                    android:textColorHint="@color/bluelight"
+                    android:textColorHint="@color/colorPrimaryAddSale"
                     android:inputType="phone"
                     android:textColor="#FFF"
                     android:singleLine="true" />
@@ -100,7 +100,7 @@
                     android:drawableStart="@drawable/lock"
                     android:drawablePadding="5dp"
                     android:hint="Password"
-                    android:textColorHint="@color/bluelight"
+                    android:textColorHint="@color/colorPrimaryAddSale"
                     android:inputType="textPassword"
                     android:textColor="#FFF"
                     android:singleLine="true" />
