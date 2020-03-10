@@ -104,16 +104,16 @@
         "source": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\src\\main\\res\\mipmap-hdpi\\ic_laun.png"
     },
     {
+        "merged": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_screen1.png.flat",
+        "source": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\src\\main\\res\\drawable-ldpi\\screen1.png"
+    },
+    {
         "merged": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
         "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\36f0502d72a9d82999416eb5b7ab0724\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\omarh\\.gradle\\caches\\transforms-2\\files-2.1\\edb2682d89ecc6a25750e45e6373e473\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_screen1.png.flat",
-        "source": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\src\\main\\res\\drawable-ldpi\\screen1.png"
     },
     {
         "merged": "C:\\Users\\omarh\\AndroidStudioProjects\\Xerox-BroCopy_V2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",

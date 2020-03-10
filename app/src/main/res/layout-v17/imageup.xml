@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Main3Activity"
     android:padding="@dimen/_5sdp"
+    android:background="@drawable/ic_bg_topheader"
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_main3"
@@ -17,7 +18,6 @@
         android:id="@+id/r"
         android:gravity="center_horizontal"
         android:layout_below="@+id/titleR"
-        android:background="#fff"
 
         >
 
@@ -54,7 +54,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:background="#FFF"
             android:layout_toEndOf="@+id/R"
             android:id="@+id/r1">
             <TextView
@@ -82,7 +81,6 @@
                     android:id="@+id/spinnerMac"
                     android:paddingTop="5dp"
                     android:textAlignment="center"
-
                     android:textColor="#FFF"
                     android:text="test" />
             </RelativeLayout>
@@ -97,7 +95,6 @@
         android:layout_marginTop="@dimen/_5sdp"
         android:layout_marginBottom="@dimen/_10sdp"
         android:layout_below="@+id/r"
-        android:background="#FFF"
 
         >
         <LinearLayout
@@ -130,7 +127,6 @@
                         android:id="@+id/papers"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#3d5258"
                         android:drawableStart="@drawable/paper"
                         android:drawablePadding="@dimen/_5sdp"
                         android:hint="Papera"
@@ -177,7 +173,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_below="@+id/l5"
-                    android:background="#FFF">
+                    >
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/Rv"
@@ -185,7 +181,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true">
-
                     </android.support.v7.widget.RecyclerView>
                 </RelativeLayout>
 
@@ -195,7 +190,6 @@
                     android:layout_below="@+id/r2"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_10sdp"
-                    android:background="#FFF"
                     android:weightSum="2"
                     android:orientation="horizontal"
                     android:gravity="center_horizontal">

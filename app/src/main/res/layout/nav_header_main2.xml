@@ -10,13 +10,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/_60sdp"
-        android:layout_height="@dimen/_60sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_80sdp"
         android:contentDescription="@string/nav_header_desc"
-        android:src="@drawable/ic_photo_user"/>
-
+        android:src="@drawable/logo2"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
